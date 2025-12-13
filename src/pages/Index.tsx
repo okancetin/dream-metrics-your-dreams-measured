@@ -204,10 +204,10 @@ const Index = () => {
                 Have questions or feedback? We'd love to hear from you.
               </p>
               <a 
-                href="mailto:support@dreammetrics.app" 
+                href="mailto:dreammetrics@proton.me" 
                 className="text-primary hover:text-accent transition-colors underline underline-offset-4"
               >
-                support@dreammetrics.app
+                dreammetrics@proton.me
               </a>
             </article>
             
@@ -237,7 +237,7 @@ const Index = () => {
             <nav className="flex items-center gap-6 text-sm" aria-label="Footer navigation">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Terms of Service</a>
-              <a href="mailto:support@dreammetrics.app" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+              <a href="mailto:dreammetrics@proton.me" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
             </nav>
             
             <p className="text-sm text-muted-foreground">
