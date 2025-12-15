@@ -22,6 +22,7 @@ const Index = () => {
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a>
             <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">How It Works</a>
             <a href="#support" className="text-muted-foreground hover:text-foreground transition-colors">Support</a>
+            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
           </div>
           
           <AppStoreButton className="hidden sm:flex" />
