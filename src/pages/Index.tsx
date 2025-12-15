@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import StarField from "@/components/StarField";
 import FeatureCard from "@/components/FeatureCard";
 import AppStoreButton from "@/components/AppStoreButton";
@@ -22,7 +23,7 @@ const Index = () => {
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a>
             <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">How It Works</a>
             <a href="#support" className="text-muted-foreground hover:text-foreground transition-colors">Support</a>
-            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
+            <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</Link>
           </div>
           
           <AppStoreButton className="hidden sm:flex" />
@@ -236,7 +237,7 @@ const Index = () => {
             </div>
             
             <nav className="flex items-center gap-6 text-sm" aria-label="Footer navigation">
-              <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</a>
+              <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Terms of Service</a>
               <a href="mailto:dreammetrics@proton.me" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
             </nav>
