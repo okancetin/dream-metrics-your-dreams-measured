@@ -235,7 +235,7 @@ const Index = () => {
             </div>
             
             <nav className="flex items-center gap-6 text-sm" aria-label="Footer navigation">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</a>
+              <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Terms of Service</a>
               <a href="mailto:dreammetrics@proton.me" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
             </nav>
